@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Wedding of Raden & Nyai</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Nunito:wght@300;400;600&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="terkunci">
+
+<!-- ornamen SVG -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <!-- ranting -->
+  <symbol id="ranting" viewBox="0 0 400 70">
+    <path d="M0 18 Q120 8 220 28 T400 20" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <g fill="currentColor">
+      <ellipse cx="50" cy="22" rx="20" ry="7" transform="rotate(25 50 22)"/>
+      <ellipse cx="95" cy="12" rx="18" ry="6" transform="rotate(-30 95 12)"/>
+      <ellipse cx="140" cy="30" rx="22" ry="7" transform="rotate(35 140 30)"/>
+      <ellipse cx="190" cy="24" rx="18" ry="6" transform="rotate(-25 190 24)"/>
+      <ellipse cx="245" cy="42" rx="22" ry="7" transform="rotate(30 245 42)"/>
+      <ellipse cx="300" cy="30" rx="18" ry="6" transform="rotate(-35 300 30)"/>
+      <ellipse cx="350" cy="34" rx="20" ry="7" transform="rotate(28 350 34)"/>
+      <circle cx="120" cy="46" r="6"/><circle cx="270" cy="22" r="5"/>
+    </g>
+  </symbol>
+
+  <!-- joglo -->
+  <symbol id="joglo" viewBox="0 0 600 220">
+    <g fill="currentColor">
+      <path d="M240 22 L262 6 H338 L360 22 Z"/>
+      <path d="M170 64 L240 22 H360 L430 64 Z"/>
+      <path d="M20 128 Q40 120 90 96 L170 64 H430 L510 96 Q560 120 580 128 Z"/>
+      <rect x="120" y="128" width="8" height="62"/><rect x="190" y="128" width="8" height="62"/>
+      <rect x="260" y="128" width="8" height="62"/><rect x="332" y="128" width="8" height="62"/>
+      <rect x="404" y="128" width="8" height="62"/><rect x="472" y="128" width="8" height="62"/>
+      <rect x="100" y="128" width="400" height="6"/>
+      <rect x="90" y="190" width="420" height="12"/>
+      <rect x="70" y="202" width="460" height="10"/>
+    </g>
+  </symbol>
+
+  <!-- gunungan -->
+  <symbol id="gunungan" viewBox="0 0 60 84">
+    <path d="M30 2 C34 18 56 34 56 58 C56 74 44 82 30 82 C16 82 4 74 4 58 C4 34 26 18 30 2 Z" fill="currentColor" fill-opacity=".16" stroke="currentColor" stroke-width="2"/>
+    <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+      <path d="M30 20 V58"/>
+      <path d="M30 32 Q21 28 17 36 M30 32 Q39 28 43 36"/>
+      <path d="M30 44 Q19 40 14 50 M30 44 Q41 40 46 50"/>
+      <path d="M22 80 V64 L30 58 L38 64 V80"/>
+    </g>
+  </symbol>
+
+  <!-- awan -->
+  <symbol id="awan-jawa" viewBox="0 0 200 100">
+    <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M8 92 C8 54 46 40 68 56 C74 26 124 20 140 52 C172 42 196 64 192 92"/>
+      <path d="M26 92 C26 66 52 58 68 68 C74 46 112 42 126 62 C150 56 170 70 174 92"/>
+      <path d="M44 92 C44 78 58 72 70 78 C76 64 100 62 110 74 C128 72 144 80 148 92"/>
+      <path d="M62 92 C62 86 70 84 76 88 C82 82 96 82 100 88 C108 88 114 90 116 92"/>
+    </g>
+  </symbol>
+
+  <!-- sulur -->
+  <symbol id="sulur-sudut" viewBox="0 0 160 160">
+    <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M2 6 C60 4 112 28 124 84 C130 110 108 122 94 108 C84 96 98 82 110 90"/>
+      <path d="M6 2 C4 60 28 112 84 124 C110 130 122 108 108 94 C96 84 82 98 90 110"/>
+      <path d="M40 8 C46 24 58 30 70 28 M8 40 C24 46 30 58 28 70"/>
+    </g>
+    <g fill="currentColor">
+      <ellipse cx="56" cy="24" rx="12" ry="5" transform="rotate(28 56 24)"/>
+      <ellipse cx="90" cy="44" rx="12" ry="5" transform="rotate(50 90 44)"/>
+      <ellipse cx="24" cy="56" rx="12" ry="5" transform="rotate(62 24 56)"/>
+      <ellipse cx="44" cy="90" rx="12" ry="5" transform="rotate(40 44 90)"/>
+      <circle cx="116" cy="70" r="4"/><circle cx="70" cy="116" r="4"/>
+    </g>
+  </symbol>
+
+  <!-- pintu -->
+  <symbol id="daun-pintu" viewBox="0 0 240 800">
+    <g fill="none" stroke="#d8b56a" stroke-linecap="round">
+      <rect x="14" y="14" width="212" height="772" stroke-width="2.5"/>
+      <rect x="28" y="28" width="184" height="744" stroke-width="1" opacity=".7"/>
+      <rect x="48" y="60" width="144" height="180" rx="4" stroke-width="1.5"/>
+      <path d="M120 80 L160 150 L120 220 L80 150 Z" stroke-width="1.5"/>
+      <circle cx="120" cy="150" r="14" stroke-width="1.5"/>
+      <circle cx="120" cy="400" r="78" stroke-width="2"/>
+      <circle cx="120" cy="400" r="66" stroke-width="1" opacity=".7"/>
+      <ellipse cx="120" cy="365" rx="16" ry="30" stroke-width="1.5"/>
+      <ellipse cx="120" cy="435" rx="16" ry="30" stroke-width="1.5"/>
+      <ellipse cx="85" cy="400" rx="30" ry="16" stroke-width="1.5"/>
+      <ellipse cx="155" cy="400" rx="30" ry="16" stroke-width="1.5"/>
+      <rect x="48" y="560" width="144" height="180" rx="4" stroke-width="1.5"/>
+      <path d="M120 580 L160 650 L120 720 L80 650 Z" stroke-width="1.5"/>
+      <circle cx="120" cy="650" r="14" stroke-width="1.5"/>
+      <circle cx="206" cy="480" r="9" stroke-width="3"/>
+    </g>
+    <g fill="#d8b56a"><circle cx="120" cy="400" r="7"/><circle cx="206" cy="480" r="3"/></g>
+  </symbol>
+</defs></svg>
+
+<!-- cover -->
+<div id="cover">
+  <div class="gerbang kiri"><svg viewBox="0 0 240 800" preserveAspectRatio="xMaxYMid meet" aria-hidden="true"><use href="#daun-pintu"/></svg></div>
+  <div class="gerbang kanan"><svg viewBox="0 0 240 800" preserveAspectRatio="xMaxYMid meet" aria-hidden="true"><use href="#daun-pintu"/></svg></div>
+  <div class="tengah">
+    <div class="kartu-cover">
+      <svg class="gunungan g-cover" viewBox="0 0 60 84" aria-hidden="true"><use href="#gunungan"/></svg>
+      <p class="salam-jawa">Sugeng Rawuh</p>
+      <h2>THE WEDDING OF</h2>
+      <h1>Raden &amp; Nyai</h1>
+      <p>Tanpa mengurangi rasa hormat, kami mengundang Anda untuk hadir di acara kami.</p>
+      <div class="tamu">Kepada Yth.<b id="namaTamu">Tamu Undangan</b></div>
+      <button class="btn" id="btnBuka" type="button">Buka Sampul</button>
+    </div>
+  </div>
+</div>
+
+<div class="kolom">
+<main>
+  <!-- beranda -->
+  <section id="beranda">
+    <svg class="ranting atas"><use href="#ranting"/></svg>
+    <svg class="joglo" viewBox="0 0 600 220" aria-hidden="true"><use href="#joglo"/></svg>
+    <p class="kecil fade">THE WEDDING OF</p>
+    <h1 class="script fade">Raden &amp; Nyai</h1>
+    <div class="bingkai fade" role="img" aria-label="Foto mempelai"></div>
+    <div class="hitung fade">
+      <div><b id="h">0</b><span>Hari</span></div>
+      <div><b id="j">0</b><span>Jam</span></div>
+      <div><b id="m">0</b><span>Menit</span></div>
+      <div><b id="d">0</b><span>Detik</span></div>
+    </div>
+  </section> 
+
+  <!-- pembuka -->
+  <section id="pembuka">
+    <svg class="awan" aria-hidden="true">
+      <filter id="fAwan" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.0018 0.016" numOctaves="4" seed="3"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 .98  0 0 0 0 .92  2 0 0 0 -.7"/>
+      </filter>
+      <rect width="100%" height="100%" filter="url(#fAwan)"/>
+    </svg>
+
+    <svg class="adegan" viewBox="0 0 400 460" aria-hidden="true">
+      <!-- pohon -->
+      <g opacity=".8">
+        <g fill="#dcc28d">
+          <ellipse cx="38" cy="205" rx="48" ry="62"/><ellipse cx="96" cy="182" rx="44" ry="52"/><ellipse cx="148" cy="160" rx="40" ry="46"/>
+          <ellipse cx="256" cy="158" rx="42" ry="48"/><ellipse cx="312" cy="182" rx="46" ry="54"/><ellipse cx="368" cy="205" rx="48" ry="62"/>
+        </g>
+        <g fill="#cfae72" opacity=".7">
+          <circle cx="30" cy="190" r="16"/><circle cx="62" cy="214" r="14"/><circle cx="104" cy="170" r="15"/><circle cx="140" cy="150" r="13"/>
+          <circle cx="262" cy="146" r="14"/><circle cx="318" cy="172" r="15"/><circle cx="352" cy="196" r="16"/><circle cx="380" cy="224" r="14"/>
+        </g>
+      </g>
+      <!-- bangunan samping -->
+      <g fill="#c8a86f" opacity=".8">
+        <path d="M0 292 L40 262 H80 L98 292 Z"/><path d="M400 292 L360 262 H320 L302 292 Z"/>
+        <rect x="0" y="292" width="92" height="40" fill="#d9bf8c"/><rect x="308" y="292" width="92" height="40" fill="#d9bf8c"/>
+      </g>
+      <!-- pendopo -->
+      <g>
+        <path d="M200 148 l-6 18 h12z" fill="#a98445"/>
+        <path d="M188 170 q12 -14 24 0z" fill="#a98445"/>
+        <path d="M150 200 L188 170 H212 L250 200 Z" fill="#c4a169"/>
+        <path d="M110 232 L150 200 H250 L290 232 Z" fill="#b99358"/>
+        <path d="M40 276 Q60 268 90 250 L110 232 H290 L310 250 Q340 268 360 276 Z" fill="#ad8a50"/>
+        <g stroke="#8f6e3b" stroke-width=".6" opacity=".7" fill="none">
+          <path d="M170 184 H230 M160 192 H240 M135 212 H265 M120 224 H280 M92 244 H308 M72 256 H328 M52 268 H348"/>
+        </g>
+        <rect x="96" y="276" width="208" height="54" fill="#d9bf8c"/>
+        <g fill="#a98445"><rect x="100" y="276" width="7" height="54"/><rect x="146" y="276" width="7" height="54"/><rect x="247" y="276" width="7" height="54"/><rect x="293" y="276" width="7" height="54"/></g>
+        <rect x="186" y="288" width="28" height="42" fill="#8b6b3a" opacity=".75"/>
+        <path d="M200 288 V330" stroke="#d9bf8c" stroke-width="1"/>
+        <rect x="70" y="330" width="260" height="8" fill="#cdb078"/><rect x="56" y="338" width="288" height="8" fill="#d6bb85"/><rect x="44" y="346" width="312" height="8" fill="#decb9a"/>
+        <path d="M170 354 H230 L248 400 H152 Z" fill="#e8d6a8"/>
+      </g>
+      <!-- lantai -->
+      <rect x="0" y="400" width="400" height="60" fill="#e3cf9f"/>
+      <g stroke="#c9a95f" stroke-width=".8" opacity=".6" fill="none">
+        <path d="M0 412 H400 M0 428 H400 M0 448 H400"/>
+        <path d="M200 400 L-60 460 M200 400 L40 460 M200 400 L120 460 M200 400 V460 M200 400 L280 460 M200 400 L360 460 M200 400 L460 460"/>
+      </g>
+      <!-- daun & bunga -->
+      <g fill="#b4955a" opacity=".65">
+        <ellipse cx="14" cy="428" rx="8" ry="34" transform="rotate(-25 14 428)"/><ellipse cx="34" cy="436" rx="7" ry="30" transform="rotate(15 34 436)"/>
+        <ellipse cx="386" cy="428" rx="8" ry="34" transform="rotate(25 386 428)"/><ellipse cx="366" cy="436" rx="7" ry="30" transform="rotate(-15 366 436)"/>
+      </g>
+      <g fill="#8a1f2d" opacity=".85">
+        <circle cx="22" cy="432" r="6"/><circle cx="34" cy="420" r="5"/><circle cx="14" cy="446" r="4"/>
+        <circle cx="378" cy="432" r="6"/><circle cx="366" cy="420" r="5"/><circle cx="386" cy="446" r="4"/>
+      </g>
+    </svg>
+
+    <!-- asap tipis -->
+    <svg class="asap asap1" aria-hidden="true">
+      <filter id="fAsap1" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.004 0.009" numOctaves="3" seed="8"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 .97  0 0 0 0 .88  1.6 0 0 0 -.55"/>
+      </filter>
+      <rect width="100%" height="100%" filter="url(#fAsap1)"/>
+    </svg>
+
+    <div class="teks">
+      <p class="b1">Assalamu'alaikum Warahmatullahi Wabarakatuh</p>
+      <p class="b2">Dengan memohon rahmat dan ridha Allah Subhanahu Wa Ta'ala,</p>
+      <p class="b3">kami bermaksud menyelenggarakan pernikahan putra-putri kami:</p>
+    </div>
+
+    <!-- asap tebal -->
+    <svg class="asap asap2" aria-hidden="true">
+      <filter id="fAsap2" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.005 0.008" numOctaves="3" seed="21"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 .97  0 0 0 0 .89  2.6 0 0 0 -.5"/>
+      </filter>
+      <rect width="100%" height="100%" filter="url(#fAsap2)"/>
+    </svg>
+  </section>
+
+  <!-- mempelai -->
+  <section id="mempelai">
+    <svg class="ranting atas"><use href="#ranting"/></svg>
+  <div class="orang pria fade">
+    <div class="foto" role="img" aria-label="Foto Raden" ></div>
+    <h3>Raden Ajeng</h3>
+    <p>Putra dari Bapak Slamet &amp; Ibu Pasri<br>Beralamat di Lamongan</p>
+    <a href="https://www.instagram.com/p/DahXiRQJu96/?igsh=dm44NDM3eHoya3N1" target="_blank" rel="noopener">@Raden.Ajeng</a>
+  </div>
+  <div class="dan fade">&amp;</div>
+  <div class="orang wanita fade">
+    <div class="foto" role="img" aria-label="Foto Nyai"></div>
+    <h3>Nyai Sukma</h3>
+    <p>Putri dari Bapak Joko &amp; Ibu Mariyati<br>Beralamat di Lamongan</p>
+    <a href="https://www.instagram.com/p/DahXiRQJu96/?igsh=dm44NDM3eHoya3N1" target="_blank" rel="noopener">@Nyai.Sukma</a>
+  </div>
+    <div class="ayat fade">
+      <p class="ar">وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا</p>
+      <p>“Di antara tanda-tanda kebesaran-Nya ialah Dia menciptakan pasangan untukmu agar kamu merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa cinta dan kasih sayang.”<br><b>Ar-Rum: 21</b></p>
+    </div>
+  </section>
+
+  <!-- cerita -->
+  <section id="cerita">
+    <h2 class="fade">Our Story</h2>
+    <p class="sub fade">Momen indah kita berdua</p>
+    <div class="cerita fade">
+      <div><h4>Awal Sebuah Cerita</h4><small>2021</small><p>Kisah kami bermula di bangku perkuliahan. Dari pertemuan sederhana, tumbuh rasa yang perlahan membawa kami pada perjalanan cinta yang indah.</p></div>
+      <div><h4>Lamaran</h4><small>2025</small><p>Setelah melewati berbagai cerita dan perjalanan bersama, dengan restu kedua keluarga, kami memantapkan hati untuk melangkah menuju ikatan yang lebih serius.</p></div>
+      <div><h4>Menuju Pelaminan</h4><small>20 November 2026</small><p>Kini, dua perjalanan yang dahulu berbeda akan bersatu dalam satu tujuan. Dengan penuh cinta dan harapan, kami siap memulai babak baru dalam ikatan suci pernikahan.</p></div>
+    </div>
+  </section>
+
+  <!-- galeri -->
+  <section id="galeri">
+    <h2 class="fade">Our Gallery</h2>
+    <p class="sub fade">Ketuk foto untuk memperbesar</p>
+    <div class="galeri fade" id="galeriGrid">
+      <button style="background-image:var(--g1)" aria-label="Foto 1"></button>
+      <button style="background-image:var(--g2)" aria-label="Foto 2"></button>
+      <button style="background-image:var(--g3)" aria-label="Foto 3"></button>
+      <button style="background-image:var(--g4)" aria-label="Foto 4"></button>
+      <button style="background-image:var(--g5)" aria-label="Foto 5"></button>
+      <button style="background-image:var(--g6)" aria-label="Foto 6"></button>
+    </div>
+  </section>
+  <div id="lightbox" role="dialog" aria-label="Foto diperbesar"><div></div></div>
+
+  <!-- acara -->
+  <section id="acara">
+    <h2 class="fade">Save The Date</h2>
+    <p class="sub fade">Sabtu, 20 November 2026</p>
+    <div class="kartu fade">
+      <h3>Akad Pernikahan</h3>
+      <div class="tgl">Sabtu, 20 November 2026</div>
+      <p>09.00 – 10.30 WIB<br>Desa Parengan, Maduran, Lamongan RT001 RW002</p>
+      <a class="btn kecil" href="https://maps.app.goo.gl/bKZdsLjtZd5b3MAk8" target="_blank" rel="noopener">Maps Lokasi Acara</a>
+    </div>
+    <div class="kartu fade">
+      <h3>Resepsi Pernikahan</h3>
+      <div class="tgl">Sabtu, 20 November 2026</div>
+      <p>11.00 WIB – selesai<br>Desa Gampang Sejati, Laren, Lamongan RW003 RT003</p>
+      <a class="btn kecil" href="https://maps.app.goo.gl/6mU1nBqY9oYYVkNDA" target="_blank" rel="noopener">Maps Lokasi Acara</a>
+    </div>
+    <!-- peta -->
+  <iframe class="peta fade" title="Peta lokasi acara" loading="lazy" src="https://www.google.com/maps?q=Desa+Parengan,+Maduran,+Lamongan&output=embed"></iframe>\
+  </section>
+
+  <!-- susunan acara -->
+  <section id="susunan">
+    <h2 class="fade">Susunan Acara</h2>
+    <p class="sub fade">Rangkaian kegiatan di hari bahagia</p>
+    <div class="garis fade">
+      <div class="langkah"><small>08.00 WIB</small><b>Kedatangan Tamu</b><p>Pengantin dan keluarga bersiap-siap</p></div>
+      <div class="langkah"><small>09.00 WIB</small><b>Akad Nikah</b><p>Pembukaan, ayat suci Al-Qur'an, khutbah nikah, ijab kabul, dan doa</p></div>
+      <div class="langkah"><small>11.00 WIB</small><b>Resepsi</b><p>Sambutan keluarga dan hiburan</p></div>
+      <div class="langkah"><small>14.00 WIB</small><b>Acara Puncak</b><p>Hiburan dan makan siang bersama</p></div>
+    </div>
+  </section>
+
+  <!-- hadiah -->
+  <section id="hadiah">
+    <h2 class="fade">Titip Hadiah</h2>
+    <p class="sub fade">Doa restu Anda adalah karunia bagi kami. Jika ingin memberi tanda kasih, Anda dapat mengirimkannya secara cashless.</p>
+    <div class="bank fade"><div><b>BCA</b><span>12345678</span><small>a.n. Nyai Sukma</small></div><button class="btn kecil salin" data-no="12345678" type="button">Salin</button></div>
+    <div class="bank fade"><div><b>BRI</b><span>123456789123</span><small>a.n. Raden Ajeng</small></div><button class="btn kecil salin" data-no="123456789123" type="button">Salin</button></div>
+  </section>
+
+  <!-- rsvp -->
+  <section id="rsvp">
+    <h2 class="fade">Kehadiran</h2>
+    <p class="sub fade">Konfirmasi kehadiran dan tuliskan ucapan untuk kami</p>
+    <form id="form" class="fade">
+      <label>Nama<input id="fNama" required maxlength="50" placeholder="Nama Anda"></label>
+      <label>Ucapan<textarea id="fPesan" required maxlength="300" placeholder="Selamat atas pernikahannya..."></textarea></label>
+      <label>Jumlah yang hadir
+        <select id="fJumlah"><option>1 Orang</option><option>2 Orang</option><option>3 Orang</option><option>4 Orang</option></select>
+      </label>
+      <div class="pilih">
+        <button class="btn" type="submit" data-s="Hadir">Saya Hadir</button>
+        <button class="btn tidak" type="submit" data-s="Tidak Hadir">Belum Bisa Hadir</button>
+      </div>
+      <p class="status" id="status" role="status"></p>
+    </form>
+    <div class="daftar" id="daftar" aria-live="polite"></div>
+  </section>
+</main>
+
+<footer>
+  <p>Matur nuwun atas doa dan kehadiran Anda</p>
+  <p class="script">Raden &amp; Nyai</p>
+</footer>
+</div>
+
+<!-- menu -->
+<nav id="menu" aria-label="Navigasi undangan">
+  <a href="#beranda" class="aktif" aria-label="Beranda"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h5v-6h4v6h5V10"/></svg></a>
+  <a href="#mempelai" aria-label="Mempelai"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.5 3-6 6.5-6s6.5 2.5 6.5 6M16 4.5a3.5 3.5 0 010 7M18 14c2.2.8 3.5 2.800 3.500 6"/></svg></a>
+  <a href="#galeri" aria-label="Galeri"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="10" r="1.800"/><path d="M3 17l5-4 4 3 3-2 6 4"/></svg></a>
+  <a href="#acara" aria-label="Lokasi"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.200 7-11.500a7 7 0 00-14 0C5 14.800 12 21 12 21z"/><circle cx="12" cy="9.500" r="2.500"/></svg></a>
+  <a href="#hadiah" aria-label="Hadiah"><svg viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M5 12v8h14v-8M12 8v12M12 8S10.500 3 8 4.500 9 8 12 8zm0 0s1.500-5 4-3.500S15 8 12 8z"/></svg></a>
+  <button id="btnScroll" type="button" aria-label="Auto scroll"><svg viewBox="0 0 24 24"><path d="M12 4v15M6 13l6 6 6-6"/></svg></button>
+  <button id="btnMusik" type="button" aria-label="Musik"><svg viewBox="0 0 24 24"><path d="M9 18V6l11-2v12"/><circle cx="6.500" cy="18" r="2.500"/><circle cx="17.500" cy="16" r="2.500"/></svg></button>
+</nav>
+<div id="toast" role="status"></div>
+
+<!-- musik -->
+<audio id="musik" src="musik.aac" loop preload="auto"></audio>
+
+<script src="node.js"></script>
+</body>
+</html>
